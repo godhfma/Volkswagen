@@ -1,0 +1,20 @@
+@charset = "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/*mobile*/
+@import "components/mobile.css";
+
+/*pc*/
+@import "components/pc.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  color: #f5f5f5;
+  background-color: #0c0d1c;
+}
+
