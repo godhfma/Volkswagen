@@ -8,6 +8,9 @@
 /*pc*/
 @import "components/pc.css";
 
+/*etc*/
+@import "components/error.css";
+
 * {
   box-sizing: border-box;
 }
@@ -17,4 +20,3 @@ body {
   color: #f5f5f5;
   background-color: #0c0d1c;
 }
-
