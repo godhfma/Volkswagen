@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('.toggle-btn').click(function(){
-        $('.gnb').stop().slideDown();
+jQuery(function($){
+    $(".toggle-btn").click(function(){
+        $(".gnb").stop().slideToggle("fast"); 
     });
 });
