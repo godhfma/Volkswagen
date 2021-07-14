@@ -1,0 +1,120 @@
+@charset="utf-8";
+    
+    @media all and (min-width:750px){
+    #wrap{
+/*            width: 90%;*/
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        header{
+            position: static;
+        }
+        
+        .fixed__menu{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        
+        
+        nav .gnb{
+            display: block !important;
+            position: static;
+            
+        }
+        .gnb li{
+            float: left;
+            font-size: 15px;
+
+        }
+        
+        .gnb li a{
+            background-color: transparent !important;
+            display: block;
+            color: #f5f5f5;
+            width: 100%;
+            
+         }
+        .gnb li a:hover, .gnb li a:focus{
+            color: burlywood;
+        }
+        
+        .toggle-btn{
+            display: none;
+        }
+        
+        .slide-span__fcolumn{
+            font-size: 16px;
+        }
+        
+        .slide-span__scolumn{
+            font-size: 50px;
+        }
+        
+        .slide-span__tcolumn{
+            font-size: 23px;
+        }
+        
+        .text__title{
+            font-size: 40px !important;
+            padding: 60px 0 30px;
+        }
+        
+        .models__sub, .owners__sub, .vw__sub, .promo__sub{
+            font-size: 19px;
+            
+        }
+        
+        .models-box {
+            font-size: 16px;
+        }
+        .models-box:hover{
+            font-weight: 500;
+        }
+        
+        .models{
+            display: block;
+            text-align: center;
+        }
+        
+        .models-box{
+            width: 60%;
+            margin:  0 20%;
+        }
+        
+        .owners__text{
+            display: block;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        
+        .owners__imgBox{
+            display: block;
+            position: relative;
+            width: 100%;
+        }
+        
+        .owners__imgBox img{
+            width: 50%;
+        }
+        
+        .imgBox__text{
+            position: absolute;
+            left: 75%; 
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }        
+        
+        .imgBox__text span{
+            text-align: left;
+        }
+        
+        .imgBox__btn span{
+            text-align: center;
+        }
+        
+        
+        
+}
