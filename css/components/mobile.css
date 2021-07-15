@@ -48,14 +48,10 @@ header {
   font-weight: 400;
 }
 .gnb li a:hover {
-  background-color: #000;
+  background-color: #0c0d1c;
   border-bottom: 1px solid #fafafa;
   border-top: 1px solid #fafafa;
   color: rgb(151, 151, 151);
-}
-
-.gnb li a:focus {
-  color: #fafafa;
 }
 
 .icons {
