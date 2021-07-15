@@ -24,8 +24,8 @@
     }
 
     .logo {
-      width: 30px;
-      height: 31px;
+      width: 25px;
+      height: 25px;
     margin-left: 7px;
     }
     .gnb {
@@ -41,7 +41,7 @@
       width: 100%;
       height: 45px;
       line-height: 45px;
-      padding-left: 30px;
+      padding-left: 10px;
       background-color: #f5f5f5;
       color: #0c0d1c;
       transition: 0.2s;
@@ -113,6 +113,7 @@
   
     .text__title {
       font-size: 35px;
+        padding-top: 70px;
       padding-bottom: 30px;
       font-family: "Roboto", sans-serif;
       font-weight: 400;
@@ -133,7 +134,7 @@
     }
   
     .models-box {
-      margin: 20px 0 60px;
+      margin: 20px 0 30px;
       width: 60%;
       height: 40px;
       border: 1px solid #f5f5f5;
@@ -183,7 +184,17 @@
   
     .owners__imgBox {
       margin-bottom: 20px;
+        overflow: hidden;
+       
     }
+
+    .owners__imgBox:hover img{
+    transform: scale(1.05);
+}
+
+    .owners__imgBox img{
+     transition: 0.3s;
+}
   
     .imgBox__text {
       text-align: center;
@@ -216,6 +227,7 @@
     .imgBox__btn:hover {
       background-color: #f5f5f5;
       color: #0c0d1c;
+        font-weight: 400;
     }
   
     .vw {
@@ -257,12 +269,14 @@
   
     .vw__imgBox span {
       font-size: 13px;
+        cursor: pointer;
     }
   
     .promo {
-      padding: 30px 0;
+      padding: 30px 0 105px;
       background-color: #f5f5f5;
       color: #0c0d1c;
+        width: 100%;
     }
   
     .promo__imgBox {
@@ -272,6 +286,9 @@
       transition: 0.3s;
       margin-bottom: 25px;
     }
+    .promo__imgBox img{
+        transition:0.3s;
+}
 
     .promo__imgBox:hover img{
         filter: brightness(50%);
@@ -319,7 +336,10 @@
         font-size: 15px;
         margin-bottom: 15px;
     }
-
+    
+    .pc__promo__text__sub{
+        display: none;
+    }
 
     .promo__btn:hover span{
         text-decoration: underline;
@@ -334,18 +354,35 @@
         width: 100%;
         height: 60px;
         line-height: 60px;
-        transition: 0.3s;
+        transition: 0.2s;
         font-family: "Roboto", sans-serif;
     }
 
     .fmenu__li:hover{
-        border-bottom: 1px solid rgb(160, 160, 167);
         color: rgb(151, 151, 151);
+        
     }
     .fmenu__text{
         font-size: 20px;
         font-family: "Roboto", sans-serif;
     }
+
+    .fmenu__sub{
+        display: none;
+        line-height: 2;
+        transition: 0.3s;
+        border-bottom: 1px solid #333;
+    }
+    .fmenu__sub li{
+        transition: 0.3s;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+
+    .fmenu__sub li:hover,  .fmenu__sub li:focus {
+            color: rgb(151, 151, 151);
+        }
 
     .flink{
         display: flex;
